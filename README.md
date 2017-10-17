@@ -30,6 +30,8 @@ php deploy-aladhan.php
 ```
 php deploy-alquran.php
 ```
+The app will now be available @ http://localhost:8000
+
 ## How to Use this for Development
 
 The code for the applications is  now in the app folder in this repository. You can edit code directly in that folder and it syncs with the Docker Container(s) so you can see your changes in runtime.
