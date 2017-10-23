@@ -7,7 +7,8 @@ You can currently deploy the following using this Docker template:
 
 * <a href="https://github.com/islamic-apps/aladhan-web-app">AlAdhan.com Web App</a>
 * <a href="https://github.com/islamic-apps/alquran-web-app">AlQuran.cloud Web App</a>
-* The APIs are coming soon.
+* <a href="https://github.com/islamic-apps/alquran-api">AlQuran.cloud API</a>
+* The AlAdhan API are coming soon.
 
 # Requirements
 * Docker
@@ -33,7 +34,7 @@ php deploy-alquran.php
 ```
 The app will now be available @ http://localhost:8000
 
-### For AlQuran.cloud API (http://api.alquran.cloud)
+### For the AlQuran.cloud API (http://api.alquran.cloud)
 ```
 php deploy-alquran-api.php
 ```
