@@ -1,0 +1,14 @@
+#######################################
+# Environment Configuration
+#  - feel free to edit -
+# -> for most changes you only have to
+#         docker-compose up -d
+#    to apply them
+#######################################
+
+# Webserver
+
+# General
+WEB_DOCUMENT_ROOT=/app/www/
+WEB_DOCUMENT_INDEX=index.php
+#CLI_SCRIPT=php /app/alquran-web-app/public/index.php
