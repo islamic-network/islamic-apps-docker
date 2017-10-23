@@ -25,12 +25,19 @@ Then run:
 ```
 php deploy-aladhan.php
 ```
+The app will now be available @ http://localhost:8000
 
 ### For AlQuran.cloud
 ```
 php deploy-alquran.php
 ```
 The app will now be available @ http://localhost:8000
+
+### For AlQuran.cloud API (http://api.alquran.cloud)
+```
+php deploy-alquran-api.php
+```
+The api will now be available @ http://localhost:8000. Try http://localhost:8000/ayah/262 for Ayat al Kursi.
 
 ## How to Use this for Development
 

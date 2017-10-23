@@ -4,3 +4,5 @@ nbproject
 /backup/*
 /app/*
 /docker-compose.yml
+/db.zip
+alquran-db.sql
