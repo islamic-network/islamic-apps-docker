@@ -8,7 +8,7 @@ You can currently deploy the following using this Docker template:
 * <a href="https://github.com/islamic-apps/aladhan-web-app">AlAdhan.com Web App</a>
 * <a href="https://github.com/islamic-apps/alquran-web-app">AlQuran.cloud Web App</a>
 * <a href="https://github.com/islamic-apps/alquran-api">AlQuran.cloud API</a>
-* The AlAdhan API are coming soon.
+* <a href="https://github.com/islamic-apps/aladhan-api">AlAdhan.com API</a>
 
 # Requirements
 * Docker
@@ -39,6 +39,12 @@ The app will now be available @ http://localhost:8000
 php deploy-alquran-api.php
 ```
 The api will now be available @ http://localhost:8000. Try http://localhost:8000/ayah/262 for Ayat al Kursi.
+
+### For the AlAdhan.com API (http://api.aladhan.com)
+```
+php deploy-aladhan-api.php
+```
+The api will now be available @ http://localhost:8000. Try http://localhost:8000/gToH to get today's Hijri Date. NOTE: For all endpoints that require Google Geocoding, you will need to add your key in app/config/config.yml. You might get away with a few free queries, but Google won't let you get too far.
 
 ## How to Use this for Development
 
