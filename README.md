@@ -32,19 +32,19 @@ The app will now be available @ http://localhost:8000
 ```
 php deploy-alquran.php
 ```
-The app will now be available @ http://localhost:8000
+The app will now be available @ http://localhost:9000
 
 ### For the AlQuran.cloud API (http://api.alquran.cloud)
 ```
 php deploy-alquran-api.php
 ```
-The api will now be available @ http://localhost:8000. Try http://localhost:8000/ayah/262 for Ayat al Kursi.
+The api will now be available @ http://localhost:9001. Try http://localhost:9001/ayah/262 for Ayat al Kursi.
 
 ### For the AlAdhan.com API (http://api.aladhan.com)
 ```
 php deploy-aladhan-api.php
 ```
-The api will now be available @ http://localhost:8000. Try http://localhost:8000/gToH to get today's Hijri Date. NOTE: For all endpoints that require Google Geocoding, you will need to add your key in app/config/config.yml. You might get away with a few free queries, but Google won't let you get too far.
+The api will now be available @ http://localhost:8001. Try http://localhost:8001/gToH to get today's Hijri Date. NOTE: For all endpoints that require Google Geocoding, you will need to add your key in app/config/config.yml. You might get away with a few free queries, but Google won't let you get too far.
 
 ## How to Use this for Development
 
