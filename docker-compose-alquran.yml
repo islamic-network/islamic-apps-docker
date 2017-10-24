@@ -13,8 +13,8 @@ services:
         #- memcached
     ports:
       - "9000:80"
-      - "8443:443"
-      - "10022:22"
+        #- "8443:443"
+        #- "10022:22"
     volumes:
       - ./app/:/app/
       - ./:/docker/

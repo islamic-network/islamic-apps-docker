@@ -7,14 +7,14 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.aladhan
-    links:
-      - mail
-      - mysql
-      - memcached
+#    links:
+#      - mail
+#      - mysql
+#      - memcached
     ports:
       - "8000:80"
-      - "8443:443"
-      - "10022:22"
+        #      - "8443:443"
+        #- "10022:22"
     volumes:
       - ./app/:/app/
       - ./:/docker/
