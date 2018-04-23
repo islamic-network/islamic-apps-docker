@@ -8,7 +8,7 @@ chdir("config");
 echo shell_exec("mv doctrineBootstrap.docker.php doctrineBootstrap.php");
 chdir("../../");
 // Download Database
-file_put_contents("db.zip", fopen("https://onedrive.live.com/download?cid=F6B3731D309AD56A&resid=F6B3731D309AD56A%21553739&authkey=APT5Immj1qM1Iuw", 'r'));
+file_put_contents("db.zip", fopen("http://downloads.alquran.cloud/alquran-db.sql.zip", 'r'));
 echo shell_exec('unzip db.zip');
 // Run the SQL
 echo shell_exec("docker-compose up > /dev/null &");
